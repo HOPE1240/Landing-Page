@@ -15,7 +15,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <img class="logo" src="assets/logo.png" alt="swimmers">
+                <img class="logo" src="/img/logo.png" alt="swimmers">
                 <button class="navbar-toggler bg-white" data-toggle="collapse" data-target="#miLista">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -83,7 +83,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 text-center">
-                        <img src="assets/img4.png" alt="Atleta">
+                        <img src="/img/fondo4.png" alt="Atleta">
                     </div>
                     <div class="col-md-7 mt-4">
                         <h1 class="font-weight-bold title-color mb-3">Sobre Nosotros</h1>
