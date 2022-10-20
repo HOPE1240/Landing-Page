@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
@@ -40,46 +40,9 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
-            <div class="title font-weight-bold">
-                Clases abiertas<br>registrate ahora!<br>
-                <button class="btn mt-3">Registrate ahora</button>
-            </div>
-        </div>
     </header>
     <main>
-        <div class="row text-white py-5" id="row-cursos">
-            <div class="container text-center">
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <h1 class="font-weight-bold">Nuestros cursos</h1>
-                        <h5>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
-                            animata corpora quaeritis. Summus brains sit​​.</h5>
-                    </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col">
-                        <img src="assets/img1.png" alt="Atleta">
-                        <h4 class="font-weight-bold mt-4">LOREM IPSUM</h4>
-                        <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
-                            animata corpora quaeritis. Summus brains sit​​.</p>
-                    </div>
-                    <div class="col">
-                        <img src="assets/img2.png" alt="Atleta">
-                        <h4 class="font-weight-bold mt-4">LOREM IPSUM</h4>
-                        <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
-                            animata corpora quaeritis. Summus brains sit​​.</p>
-                    </div>
-                    <div class="col">
-                        <img src="assets/img3.png" alt="Atletas">
-                        <h4 class="font-weight-bold mt-4">LOREM IPSUM</h4>
-                        <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
-                            animata corpora quaeritis. Summus brains sit​​.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row py-5" id="row-nosotros">
+        <div class="container row py-5" id="row-nosotros">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 text-center">
@@ -101,37 +64,30 @@
                 </div>
             </div>
         </div>
-        <div class="row" id="row-datos">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col">
-                        <div class="mx-auto circulo d-flex justify-content-center align-items-center">
-                            <h1 class="font-weight-bold title-color">20</h1>
-                        </div>
-                        <h5 class="font-weight-bold mt-3 text-white">PISCINAS</h5>
-                    </div>
-                    <div class="col">
-                        <div class="mx-auto circulo d-flex justify-content-center align-items-center">
-                            <h1 class="font-weight-bold title-color">55</h1>
-                        </div>
-                        <h5 class="font-weight-bold mt-3 text-white">ENTRENADORES</h5>
-                    </div>
-                    <div class="col">
-                        <div class="mx-auto circulo d-flex justify-content-center align-items-center">
-                            <h1 class="font-weight-bold title-color">11</h1>
-                        </div>
-                        <h5 class="font-weight-bold mt-3 text-white">OLIMPIADAS</h5>
-                    </div>
-                    <div class="col">
-                        <div class="mx-auto circulo d-flex justify-content-center align-items-center">
-                            <h1 class="font-weight-bold title-color">33</h1>
-                        </div>
-                        <h5 class="font-weight-bold mt-3 text-white">PREMIOS</h5>
-                    </div>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/fondo1.jpg" class="d-block" alt="..." height="770">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/fondo4.jpg" class="d-block" alt="..." height="770">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/fondo3.jpg" class="d-block" alt="..." height="770">
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="row" id="row-servicios">
+
+        <div class="container" id="row-servicios">
             <div class="container">
                 <div class="row flex-row-reverse">
                     <div class="col-md-5 text-center">
@@ -153,6 +109,28 @@
                 </div>
             </div>
         </div>
+
+        <div class="row mt-4 ml-4 mb-4">
+            <div class="col">
+                <img class="rounded-circle" src="/img/aliado1.jpg" alt="Aliado" height="236">
+                <h4 class="font-weight-bold mt-4">LOREM IPSUM</h4>
+                <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
+                    animata corpora quaeritis. Summus brains sit​​.</p>
+            </div>
+            <div class="col">
+                <img class="rounded-circle" src="/img/aliado2.jpg" alt="Aliado" height="236">
+                <h4 class="font-weight-bold mt-4">LOREM IPSUM</h4>
+                <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
+                    animata corpora quaeritis. Summus brains sit​​.</p>
+            </div>
+            <div class="col">
+                <img class="rounded-circle" src="/img/aliado3.jpg" alt="Aliado" height="236">
+                <h4 class="font-weight-bold mt-4">LOREM IPSUM</h4>
+                <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
+                    animata corpora quaeritis. Summus brains sit​​.</p>
+            </div>
+        </div>
+
         <div class="row" id="row-frace">
             <div class="container text-center">
                 <h3 class="text-white">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne
@@ -214,12 +192,12 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>

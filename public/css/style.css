@@ -41,10 +41,6 @@ header {
     margin: 0;
 }
 
-#row-cursos img{
-    border-radius: 50%;
-}
-
 #row-nosotros{
     background-image: url('assets/fondo2.png');
     background-size: cover;
